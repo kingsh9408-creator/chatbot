@@ -1,15 +1,19 @@
 
 from flask import Flask
 
+
+
 app = Flask(__name__)
+
+
 
 @app.route("/")
 
-def chat():
+def home():
 
-return "Hello! I'm the mini chatbot for the Cloud Infrastructure
+return "Hello! I'm the mini chatbot for the Cloud Infrastructure"
 
-Management class. How can I help you?"
+
 
 if __name__ == "__main__":
 
